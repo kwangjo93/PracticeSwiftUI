@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088A2B1F32FF001178B8 /* TextPractice.swift */; };
+		F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088C2B206E9A001178B8 /* ImagePractice.swift */; };
 		F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */; };
-		F9A83AC62B1B2290003AE374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC52B1B2290003AE374 /* ContentView.swift */; };
+		F9A83AC62B1B2290003AE374 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC52B1B2290003AE374 /* State.swift */; };
 		F9A83AC82B1B2293003AE374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A83AC72B1B2293003AE374 /* Assets.xcassets */; };
 		F9A83ACB2B1B2293003AE374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A83ACA2B1B2293003AE374 /* Preview Assets.xcassets */; };
+		F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD12B1CC19D003AE374 /* Binding.swift */; };
+		F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F97D088A2B1F32FF001178B8 /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
+		F97D088C2B206E9A001178B8 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
 		F9A83AC02B1B2290003AE374 /* practiceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceSwiftUIApp.swift; sourceTree = "<group>"; };
-		F9A83AC52B1B2290003AE374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9A83AC52B1B2290003AE374 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		F9A83AC72B1B2293003AE374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9A83ACA2B1B2293003AE374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9A83AD12B1CC19D003AE374 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPractice.swift; sourceTree = "<group>"; };
+		F9A83AD52B1E003E003AE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F9A83AD52B1E003E003AE374 /* Info.plist */,
 				F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */,
-				F9A83AC52B1B2290003AE374 /* ContentView.swift */,
+				F9A83AC52B1B2290003AE374 /* State.swift */,
+				F9A83AD12B1CC19D003AE374 /* Binding.swift */,
+				F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */,
+				F97D088A2B1F32FF001178B8 /* TextPractice.swift */,
+				F97D088C2B206E9A001178B8 /* ImagePractice.swift */,
 				F9A83AC72B1B2293003AE374 /* Assets.xcassets */,
 				F9A83AC92B1B2293003AE374 /* Preview Content */,
 			);
@@ -137,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A83AC62B1B2290003AE374 /* ContentView.swift in Sources */,
+				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
+				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
+				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
+				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
+				F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */,
 				F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 52TADTDD5Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = practiceSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 52TADTDD5Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = practiceSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
