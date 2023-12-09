@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
+		F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F192B2497E700FA1F8E /* NavigationView.swift */; };
 		F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088A2B1F32FF001178B8 /* TextPractice.swift */; };
 		F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088C2B206E9A001178B8 /* ImagePractice.swift */; };
 		F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		F9739F192B2497E700FA1F8E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		F97D088A2B1F32FF001178B8 /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		F97D088C2B206E9A001178B8 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
 		F9A83AC02B1B2290003AE374 /* practiceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,7 @@
 				F97D088A2B1F32FF001178B8 /* TextPractice.swift */,
 				F97D088C2B206E9A001178B8 /* ImagePractice.swift */,
 				F9739F172B234FD500FA1F8E /* ObservableObject.swift */,
+				F9739F192B2497E700FA1F8E /* NavigationView.swift */,
 				F9A83AC72B1B2293003AE374 /* Assets.xcassets */,
 				F9A83AC92B1B2293003AE374 /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			files = (
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
+				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
 				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
 				F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */,
