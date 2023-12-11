@@ -10,6 +10,7 @@
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
 		F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F192B2497E700FA1F8E /* NavigationView.swift */; };
 		F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */; };
+		F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AE89C2B2730E800814967 /* TabViewPrac.swift */; };
 		F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088A2B1F32FF001178B8 /* TextPractice.swift */; };
 		F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088C2B206E9A001178B8 /* ImagePractice.swift */; };
 		F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */; };
@@ -18,12 +19,14 @@
 		F9A83ACB2B1B2293003AE374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A83ACA2B1B2293003AE374 /* Preview Assets.xcassets */; };
 		F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD12B1CC19D003AE374 /* Binding.swift */; };
 		F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */; };
+		F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		F9739F192B2497E700FA1F8E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		F97AE89C2B2730E800814967 /* TabViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPrac.swift; sourceTree = "<group>"; };
 		F97D088A2B1F32FF001178B8 /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		F97D088C2B206E9A001178B8 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
 		F9A83AC02B1B2290003AE374 /* practiceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +37,7 @@
 		F9A83AD12B1CC19D003AE374 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPractice.swift; sourceTree = "<group>"; };
 		F9A83AD52B1E003E003AE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderProxyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				F9739F172B234FD500FA1F8E /* ObservableObject.swift */,
 				F9739F192B2497E700FA1F8E /* NavigationView.swift */,
 				F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */,
+				F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */,
+				F97AE89C2B2730E800814967 /* TabViewPrac.swift */,
 				F9A83AC72B1B2293003AE374 /* Assets.xcassets */,
 				F9A83AC92B1B2293003AE374 /* Preview Content */,
 			);
@@ -160,10 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */,
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
+				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
 				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
 				F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */,
 				F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */,
