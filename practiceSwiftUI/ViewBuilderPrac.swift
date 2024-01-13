@@ -34,14 +34,14 @@ struct ViewBuilderPrac: View {
 }
 
 struct MyVStack<Content: View>: View {
-    let content: () -> Content
-    init(@ViewBuilder content: @escaping () -> Content) {
+    let content: () -> Content    // 클로저 타입의 저장속성 만들기
+    init(@ViewBuilder content: @escaping () -> Content) {   // 외부주입 생성자
         self.content = content
     }
 
     var body: some View {
         VStack(spacing: 10) {
-            content()
+            content()  // VSTack 안에 외부주입으로 들어오는 것을 실행하도록.
         }
         .font(.largeTitle)
     }

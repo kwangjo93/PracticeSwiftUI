@@ -16,6 +16,7 @@
 		F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088A2B1F32FF001178B8 /* TextPractice.swift */; };
 		F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088C2B206E9A001178B8 /* ImagePractice.swift */; };
 		F98B1BC52B5221D700C71281 /* ViewBuilderPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */; };
+		F98B1BC72B522BF600C71281 /* AnyLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */; };
 		F991419B2B29F0D100770379 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F991419A2B29F0D100770379 /* ButtonStyleView.swift */; };
 		F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */; };
 		F9A83AC62B1B2290003AE374 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AC52B1B2290003AE374 /* State.swift */; };
@@ -36,6 +37,7 @@
 		F97D088A2B1F32FF001178B8 /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		F97D088C2B206E9A001178B8 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
 		F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderPrac.swift; sourceTree = "<group>"; };
+		F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutPrac.swift; sourceTree = "<group>"; };
 		F991419A2B29F0D100770379 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 		F9A83AC02B1B2290003AE374 /* practiceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */,
 				F93319E62B307986007D69F6 /* PickerPrac.swift */,
 				F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */,
+				F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */,
 				F9A83AC72B1B2293003AE374 /* Assets.xcassets */,
 				F9A83AC92B1B2293003AE374 /* Preview Content */,
 			);
@@ -188,6 +191,7 @@
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
 				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
 				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
+				F98B1BC72B522BF600C71281 /* AnyLayoutPrac.swift in Sources */,
 				F93319E72B307986007D69F6 /* PickerPrac.swift in Sources */,
 				F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */,
 				F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */,
