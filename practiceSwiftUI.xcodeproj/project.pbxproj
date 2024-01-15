@@ -25,6 +25,8 @@
 		F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD12B1CC19D003AE374 /* Binding.swift */; };
 		F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */; };
 		F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */; };
+		F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A292B537DFB00A0F923 /* State2.swift */; };
+		F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A2B2B54C7F700A0F923 /* EnvironmentPrac.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPractice.swift; sourceTree = "<group>"; };
 		F9A83AD52B1E003E003AE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderProxyView.swift; sourceTree = "<group>"; };
+		F9F04A292B537DFB00A0F923 /* State2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State2.swift; sourceTree = "<group>"; };
+		F9F04A2B2B54C7F700A0F923 /* EnvironmentPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPrac.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				F9A83AD52B1E003E003AE374 /* Info.plist */,
 				F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */,
 				F9A83AC52B1B2290003AE374 /* State.swift */,
+				F9F04A292B537DFB00A0F923 /* State2.swift */,
 				F9A83AD12B1CC19D003AE374 /* Binding.swift */,
 				F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */,
 				F97D088A2B1F32FF001178B8 /* TextPractice.swift */,
@@ -97,6 +102,7 @@
 				F93319E62B307986007D69F6 /* PickerPrac.swift */,
 				F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */,
 				F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */,
+				F9F04A2B2B54C7F700A0F923 /* EnvironmentPrac.swift */,
 				F9A83AC72B1B2293003AE374 /* Assets.xcassets */,
 				F9A83AC92B1B2293003AE374 /* Preview Content */,
 			);
@@ -188,7 +194,9 @@
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
+				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
+				F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */,
 				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
 				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
 				F98B1BC72B522BF600C71281 /* AnyLayoutPrac.swift in Sources */,

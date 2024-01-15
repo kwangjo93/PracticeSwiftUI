@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Stack의 동적 할당
 struct AnyLayoutPrac: View {
     @State
     var myLayout: AnyLayout = AnyLayout(VStackLayout())  // Stack 의 동적 할당을 위한 State Property
