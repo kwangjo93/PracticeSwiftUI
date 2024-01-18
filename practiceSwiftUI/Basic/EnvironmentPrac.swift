@@ -19,10 +19,6 @@ struct EnvironmentPrac: View {
     }
 }
 
-#Preview {
-    EnvironmentPrac()
-}
-
 class SpeedSetting: ObservableObject {  // 변화하는 대상, 그리고 공유될 객체
     @Published var speed = 0.0
 }
@@ -41,3 +37,7 @@ struct SpeedDisplayView: View {
 }
 
 /// 객체는 관찰되는 객체와 동일한 방식으로 작동되지만, 뷰 계층 구조를 통해 전달되지 않고 콘텐트 뷰의 모든 하위 뷰에 접근할 수 있다.
+
+#Preview {
+    EnvironmentPrac()
+}
