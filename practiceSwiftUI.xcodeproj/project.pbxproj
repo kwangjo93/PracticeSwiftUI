@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F907AB772B5DED61005817F8 /* 리스트속성.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB762B5DED61005817F8 /* 리스트속성.swift */; };
+		F907AB792B5DEDF8005817F8 /* 동적리스트.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB782B5DEDF8005817F8 /* 동적리스트.swift */; };
+		F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB7A2B5DF04B005817F8 /* forEachList.swift */; };
+		F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */; };
 		F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */; };
 		F93319E72B307986007D69F6 /* PickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E62B307986007D69F6 /* PickerPrac.swift */; };
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
@@ -31,9 +35,14 @@
 		F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A362B57657C00A0F923 /* GroupPrac.swift */; };
 		F9F04A392B576F2A00A0F923 /* ActorPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A382B576F2A00A0F923 /* ActorPrac.swift */; };
 		F9F04A3C2B58AB9D00A0F923 /* LifrCyclePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */; };
+		F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F907AB762B5DED61005817F8 /* 리스트속성.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리스트속성.swift"; sourceTree = "<group>"; };
+		F907AB782B5DEDF8005817F8 /* 동적리스트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "동적리스트.swift"; sourceTree = "<group>"; };
+		F907AB7A2B5DF04B005817F8 /* forEachList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forEachList.swift; sourceTree = "<group>"; };
+		F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리스트네비게이션.swift"; sourceTree = "<group>"; };
 		F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewPrac.swift; sourceTree = "<group>"; };
 		F93319E62B307986007D69F6 /* PickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPrac.swift; sourceTree = "<group>"; };
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
@@ -60,6 +69,7 @@
 		F9F04A362B57657C00A0F923 /* GroupPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPrac.swift; sourceTree = "<group>"; };
 		F9F04A382B576F2A00A0F923 /* ActorPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorPrac.swift; sourceTree = "<group>"; };
 		F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifrCyclePrac.swift; sourceTree = "<group>"; };
+		F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,7 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F9F04A3D2B5A058400A0F923 /* List */,
 				F9F04A3A2B58AB9000A0F923 /* LifeCycle */,
 				F9F04A2E2B560D0E00A0F923 /* Concurrency */,
 				F9F04A2D2B560CFC00A0F923 /* Basic */,
@@ -131,6 +142,7 @@
 				F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */,
 				F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */,
 				F9F04A2B2B54C7F700A0F923 /* EnvironmentPrac.swift */,
+				F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -151,6 +163,17 @@
 				F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */,
 			);
 			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		F9F04A3D2B5A058400A0F923 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F907AB762B5DED61005817F8 /* 리스트속성.swift */,
+				F907AB782B5DEDF8005817F8 /* 동적리스트.swift */,
+				F907AB7A2B5DF04B005817F8 /* forEachList.swift */,
+				F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,16 +248,20 @@
 			files = (
 				F991419B2B29F0D100770379 /* ButtonStyleView.swift in Sources */,
 				F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */,
+				F907AB792B5DEDF8005817F8 /* 동적리스트.swift in Sources */,
 				F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */,
 				F98B1BC52B5221D700C71281 /* ViewBuilderPrac.swift in Sources */,
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
+				F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */,
 				F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
+				F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
 				F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */,
 				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
+				F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */,
 				F9F04A302B560EB800A0F923 /* ConcurrencyPrac.swift in Sources */,
 				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
 				F98B1BC72B522BF600C71281 /* AnyLayoutPrac.swift in Sources */,
@@ -243,6 +270,7 @@
 				F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */,
 				F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */,
 				F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */,
+				F907AB772B5DED61005817F8 /* 리스트속성.swift in Sources */,
 				F9F04A392B576F2A00A0F923 /* ActorPrac.swift in Sources */,
 				F9F04A3C2B58AB9D00A0F923 /* LifrCyclePrac.swift in Sources */,
 			);
