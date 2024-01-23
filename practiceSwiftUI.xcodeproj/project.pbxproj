@@ -11,6 +11,10 @@
 		F907AB792B5DEDF8005817F8 /* 동적리스트.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB782B5DEDF8005817F8 /* 동적리스트.swift */; };
 		F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB7A2B5DF04B005817F8 /* forEachList.swift */; };
 		F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */; };
+		F907AB7F2B5E0E6D005817F8 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F907AB7E2B5E0E6D005817F8 /* CarAssets.xcassets */; };
+		F907AB8F2B5F5100005817F8 /* NavigationSplitViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB8E2B5F5100005817F8 /* NavigationSplitViewPrac.swift */; };
+		F907AB922B5F5616005817F8 /* IconCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB912B5F5616005817F8 /* IconCategory.swift */; };
+		F907AB942B5F5648005817F8 /* NavSplitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907AB932B5F5648005817F8 /* NavSplitDemo.swift */; };
 		F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */; };
 		F93319E72B307986007D69F6 /* PickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E62B307986007D69F6 /* PickerPrac.swift */; };
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
@@ -43,6 +47,10 @@
 		F907AB782B5DEDF8005817F8 /* 동적리스트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "동적리스트.swift"; sourceTree = "<group>"; };
 		F907AB7A2B5DF04B005817F8 /* forEachList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forEachList.swift; sourceTree = "<group>"; };
 		F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리스트네비게이션.swift"; sourceTree = "<group>"; };
+		F907AB7E2B5E0E6D005817F8 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		F907AB8E2B5F5100005817F8 /* NavigationSplitViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewPrac.swift; sourceTree = "<group>"; };
+		F907AB912B5F5616005817F8 /* IconCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCategory.swift; sourceTree = "<group>"; };
+		F907AB932B5F5648005817F8 /* NavSplitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitDemo.swift; sourceTree = "<group>"; };
 		F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewPrac.swift; sourceTree = "<group>"; };
 		F93319E62B307986007D69F6 /* PickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPrac.swift; sourceTree = "<group>"; };
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
@@ -83,6 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F907AB8D2B5F4F70005817F8 /* NavigationSpitView */ = {
+			isa = PBXGroup;
+			children = (
+				F907AB902B5F55FA005817F8 /* NavSplitDemo */,
+				F907AB8E2B5F5100005817F8 /* NavigationSplitViewPrac.swift */,
+			);
+			path = NavigationSpitView;
+			sourceTree = "<group>";
+		};
+		F907AB902B5F55FA005817F8 /* NavSplitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F907AB912B5F5616005817F8 /* IconCategory.swift */,
+				F907AB932B5F5648005817F8 /* NavSplitDemo.swift */,
+			);
+			path = NavSplitDemo;
+			sourceTree = "<group>";
+		};
 		F9A83AB72B1B2290003AE374 = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +128,13 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F907AB8D2B5F4F70005817F8 /* NavigationSpitView */,
 				F9F04A3D2B5A058400A0F923 /* List */,
 				F9F04A3A2B58AB9000A0F923 /* LifeCycle */,
 				F9F04A2E2B560D0E00A0F923 /* Concurrency */,
 				F9F04A2D2B560CFC00A0F923 /* Basic */,
 				F9A83AC72B1B2293003AE374 /* Assets.xcassets */,
+				F907AB7E2B5E0E6D005817F8 /* CarAssets.xcassets */,
 				F9A83AD52B1E003E003AE374 /* Info.plist */,
 				F9A83AC92B1B2293003AE374 /* Preview Content */,
 			);
@@ -236,6 +264,7 @@
 			files = (
 				F9A83ACB2B1B2293003AE374 /* Preview Assets.xcassets in Resources */,
 				F9A83AC82B1B2293003AE374 /* Assets.xcassets in Resources */,
+				F907AB7F2B5E0E6D005817F8 /* CarAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +276,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F991419B2B29F0D100770379 /* ButtonStyleView.swift in Sources */,
+				F907AB922B5F5616005817F8 /* IconCategory.swift in Sources */,
+				F907AB8F2B5F5100005817F8 /* NavigationSplitViewPrac.swift in Sources */,
 				F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */,
 				F907AB792B5DEDF8005817F8 /* 동적리스트.swift in Sources */,
 				F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */,
 				F98B1BC52B5221D700C71281 /* ViewBuilderPrac.swift in Sources */,
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
 				F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */,
+				F907AB942B5F5648005817F8 /* NavSplitDemo.swift in Sources */,
 				F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
 				F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */,
