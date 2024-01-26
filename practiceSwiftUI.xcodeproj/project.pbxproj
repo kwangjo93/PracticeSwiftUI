@@ -22,6 +22,8 @@
 		F907ABA22B60AD7E005817F8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907ABA12B60AD7E005817F8 /* SettingView.swift */; };
 		F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */; };
 		F93319E72B307986007D69F6 /* PickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E62B307986007D69F6 /* PickerPrac.swift */; };
+		F93F89D82B633DFF00978E5D /* GridItemPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89D72B633DFF00978E5D /* GridItemPrac.swift */; };
+		F93F89DA2B6345D900978E5D /* GridRowPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89D92B6345D900978E5D /* GridRowPrac.swift */; };
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
 		F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F192B2497E700FA1F8E /* NavigationView.swift */; };
 		F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */; };
@@ -63,6 +65,8 @@
 		F907ABA12B60AD7E005817F8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewPrac.swift; sourceTree = "<group>"; };
 		F93319E62B307986007D69F6 /* PickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPrac.swift; sourceTree = "<group>"; };
+		F93F89D72B633DFF00978E5D /* GridItemPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemPrac.swift; sourceTree = "<group>"; };
+		F93F89D92B6345D900978E5D /* GridRowPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowPrac.swift; sourceTree = "<group>"; };
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		F9739F192B2497E700FA1F8E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,15 @@
 			path = OutlineGroupPrac;
 			sourceTree = "<group>";
 		};
+		F907ABA32B60B193005817F8 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				F93F89D72B633DFF00978E5D /* GridItemPrac.swift */,
+				F93F89D92B6345D900978E5D /* GridRowPrac.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
 		F9A83AB72B1B2290003AE374 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 		F9F04A2D2B560CFC00A0F923 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F907ABA32B60B193005817F8 /* GridView */,
 				F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */,
 				F9A83AC52B1B2290003AE374 /* State.swift */,
 				F9F04A292B537DFB00A0F923 /* State2.swift */,
@@ -303,6 +317,7 @@
 				F907AB8F2B5F5100005817F8 /* NavigationSplitViewPrac.swift in Sources */,
 				F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */,
 				F907AB9C2B609F3D005817F8 /* OutlineGroupPrac.swift in Sources */,
+				F93F89D82B633DFF00978E5D /* GridItemPrac.swift in Sources */,
 				F907AB792B5DEDF8005817F8 /* 동적리스트.swift in Sources */,
 				F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */,
 				F907AB9E2B609F54005817F8 /* CarInfo.swift in Sources */,
@@ -312,6 +327,7 @@
 				F907AB942B5F5648005817F8 /* NavSplitDemo.swift in Sources */,
 				F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
+				F93F89DA2B6345D900978E5D /* GridRowPrac.swift in Sources */,
 				F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */,
 				F907AB992B609C84005817F8 /* DisclosurePrac.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
