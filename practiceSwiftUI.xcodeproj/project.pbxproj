@@ -24,6 +24,9 @@
 		F93319E72B307986007D69F6 /* PickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93319E62B307986007D69F6 /* PickerPrac.swift */; };
 		F93F89D82B633DFF00978E5D /* GridItemPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89D72B633DFF00978E5D /* GridItemPrac.swift */; };
 		F93F89DA2B6345D900978E5D /* GridRowPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89D92B6345D900978E5D /* GridRowPrac.swift */; };
+		F93F89DC2B6541BC00978E5D /* ContextMenuPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */; };
+		F93F89DE2B65482600978E5D /* DrawPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89DD2B65482600978E5D /* DrawPrac.swift */; };
+		F93F89E12B654D9E00978E5D /* GradientPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E02B654D9E00978E5D /* GradientPrac.swift */; };
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
 		F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F192B2497E700FA1F8E /* NavigationView.swift */; };
 		F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */; };
@@ -67,6 +70,9 @@
 		F93319E62B307986007D69F6 /* PickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPrac.swift; sourceTree = "<group>"; };
 		F93F89D72B633DFF00978E5D /* GridItemPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemPrac.swift; sourceTree = "<group>"; };
 		F93F89D92B6345D900978E5D /* GridRowPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowPrac.swift; sourceTree = "<group>"; };
+		F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuPrac.swift; sourceTree = "<group>"; };
+		F93F89DD2B65482600978E5D /* DrawPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPrac.swift; sourceTree = "<group>"; };
+		F93F89E02B654D9E00978E5D /* GradientPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientPrac.swift; sourceTree = "<group>"; };
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		F9739F192B2497E700FA1F8E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -144,6 +150,15 @@
 			path = GridView;
 			sourceTree = "<group>";
 		};
+		F93F89DF2B654D8900978E5D /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				F93F89DD2B65482600978E5D /* DrawPrac.swift */,
+				F93F89E02B654D9E00978E5D /* GradientPrac.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
 		F9A83AB72B1B2290003AE374 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +202,7 @@
 		F9F04A2D2B560CFC00A0F923 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F93F89DF2B654D8900978E5D /* Draw */,
 				F907ABA32B60B193005817F8 /* GridView */,
 				F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */,
 				F9A83AC52B1B2290003AE374 /* State.swift */,
@@ -200,6 +216,7 @@
 				F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */,
 				F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */,
 				F97AE89C2B2730E800814967 /* TabViewPrac.swift */,
+				F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */,
 				F991419A2B29F0D100770379 /* ButtonStyleView.swift */,
 				F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */,
 				F93319E62B307986007D69F6 /* PickerPrac.swift */,
@@ -326,10 +343,13 @@
 				F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */,
 				F907AB942B5F5648005817F8 /* NavSplitDemo.swift in Sources */,
 				F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */,
+				F93F89DE2B65482600978E5D /* DrawPrac.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
 				F93F89DA2B6345D900978E5D /* GridRowPrac.swift in Sources */,
+				F93F89E12B654D9E00978E5D /* GradientPrac.swift in Sources */,
 				F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */,
 				F907AB992B609C84005817F8 /* DisclosurePrac.swift in Sources */,
+				F93F89DC2B6541BC00978E5D /* ContextMenuPrac.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,

@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct TabViewPrac: View {
+    @State private var selectedTab = 1
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab) {
             TabItemView11(title: "ddd", imageString: "person")
                 .tabItem { Image(systemName: "person")
-                            Text("dd")}
+                            Text("dd")}.tag(1)
             TabItemView11(title: "123", imageString: "star")
-                .tabItem { Image(systemName: "star") }
+                .tabItem { Image(systemName: "star") }.tag(2)
             TabItemView11(title: "dzxw", imageString: "doc")
-                .tabItem { Image(systemName: "doc") }
-            
+                .tabItem { Image(systemName: "doc") }.tag(3)
         }
+        .font(.largeTitle)
     }
 }
 
