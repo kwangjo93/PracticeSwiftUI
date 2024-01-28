@@ -30,6 +30,9 @@
 		F93F89E42B668CB800978E5D /* AnimationPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E32B668CB800978E5D /* AnimationPrac.swift */; };
 		F93F89E62B66963E00978E5D /* AnimationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E52B66963E00978E5D /* AnimationBinding.swift */; };
 		F93F89E82B66995B00978E5D /* ConvertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E72B66995B00978E5D /* ConvertAnimation.swift */; };
+		F93F89EB2B669C4900978E5D /* GesturePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89EA2B669C4900978E5D /* GesturePrac.swift */; };
+		F93F89ED2B66A2A200978E5D /* UpdateingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89EC2B66A2A200978E5D /* UpdateingAction.swift */; };
+		F93F89F12B66A59C00978E5D /* ComposeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89F02B66A59C00978E5D /* ComposeGesture.swift */; };
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
 		F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F192B2497E700FA1F8E /* NavigationView.swift */; };
 		F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */; };
@@ -79,6 +82,9 @@
 		F93F89E32B668CB800978E5D /* AnimationPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPrac.swift; sourceTree = "<group>"; };
 		F93F89E52B66963E00978E5D /* AnimationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBinding.swift; sourceTree = "<group>"; };
 		F93F89E72B66995B00978E5D /* ConvertAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAnimation.swift; sourceTree = "<group>"; };
+		F93F89EA2B669C4900978E5D /* GesturePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePrac.swift; sourceTree = "<group>"; };
+		F93F89EC2B66A2A200978E5D /* UpdateingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateingAction.swift; sourceTree = "<group>"; };
+		F93F89F02B66A59C00978E5D /* ComposeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeGesture.swift; sourceTree = "<group>"; };
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		F9739F192B2497E700FA1F8E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -175,6 +181,17 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		F93F89E92B669C3D00978E5D /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */,
+				F93F89EA2B669C4900978E5D /* GesturePrac.swift */,
+				F93F89EC2B66A2A200978E5D /* UpdateingAction.swift */,
+				F93F89F02B66A59C00978E5D /* ComposeGesture.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
 		F9A83AB72B1B2290003AE374 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +211,7 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F93F89E92B669C3D00978E5D /* Gesture */,
 				F93F89E22B668CA900978E5D /* Animation */,
 				F907AB8D2B5F4F70005817F8 /* NavigationSpitView */,
 				F9F04A3D2B5A058400A0F923 /* List */,
@@ -233,7 +251,6 @@
 				F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */,
 				F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */,
 				F97AE89C2B2730E800814967 /* TabViewPrac.swift */,
-				F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */,
 				F991419A2B29F0D100770379 /* ButtonStyleView.swift */,
 				F93319E42B307653007D69F6 /* TextFieldViewPrac.swift */,
 				F93319E62B307986007D69F6 /* PickerPrac.swift */,
@@ -352,6 +369,7 @@
 				F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */,
 				F907AB9C2B609F3D005817F8 /* OutlineGroupPrac.swift in Sources */,
 				F93F89D82B633DFF00978E5D /* GridItemPrac.swift in Sources */,
+				F93F89F12B66A59C00978E5D /* ComposeGesture.swift in Sources */,
 				F907AB792B5DEDF8005817F8 /* 동적리스트.swift in Sources */,
 				F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */,
 				F907AB9E2B609F54005817F8 /* CarInfo.swift in Sources */,
@@ -371,6 +389,7 @@
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
+				F93F89EB2B669C4900978E5D /* GesturePrac.swift in Sources */,
 				F907ABA02B60AB15005817F8 /* CarCellView.swift in Sources */,
 				F93F89E82B66995B00978E5D /* ConvertAnimation.swift in Sources */,
 				F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */,
@@ -389,6 +408,7 @@
 				F907AB772B5DED61005817F8 /* 리스트속성.swift in Sources */,
 				F9F04A392B576F2A00A0F923 /* ActorPrac.swift in Sources */,
 				F9F04A3C2B58AB9D00A0F923 /* LifrCyclePrac.swift in Sources */,
+				F93F89ED2B66A2A200978E5D /* UpdateingAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
