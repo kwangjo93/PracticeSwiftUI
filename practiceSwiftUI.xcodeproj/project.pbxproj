@@ -27,6 +27,9 @@
 		F93F89DC2B6541BC00978E5D /* ContextMenuPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */; };
 		F93F89DE2B65482600978E5D /* DrawPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89DD2B65482600978E5D /* DrawPrac.swift */; };
 		F93F89E12B654D9E00978E5D /* GradientPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E02B654D9E00978E5D /* GradientPrac.swift */; };
+		F93F89E42B668CB800978E5D /* AnimationPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E32B668CB800978E5D /* AnimationPrac.swift */; };
+		F93F89E62B66963E00978E5D /* AnimationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E52B66963E00978E5D /* AnimationBinding.swift */; };
+		F93F89E82B66995B00978E5D /* ConvertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F89E72B66995B00978E5D /* ConvertAnimation.swift */; };
 		F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F172B234FD500FA1F8E /* ObservableObject.swift */; };
 		F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F192B2497E700FA1F8E /* NavigationView.swift */; };
 		F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */; };
@@ -73,6 +76,9 @@
 		F93F89DB2B6541BC00978E5D /* ContextMenuPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuPrac.swift; sourceTree = "<group>"; };
 		F93F89DD2B65482600978E5D /* DrawPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPrac.swift; sourceTree = "<group>"; };
 		F93F89E02B654D9E00978E5D /* GradientPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientPrac.swift; sourceTree = "<group>"; };
+		F93F89E32B668CB800978E5D /* AnimationPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPrac.swift; sourceTree = "<group>"; };
+		F93F89E52B66963E00978E5D /* AnimationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBinding.swift; sourceTree = "<group>"; };
+		F93F89E72B66995B00978E5D /* ConvertAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAnimation.swift; sourceTree = "<group>"; };
 		F9739F172B234FD500FA1F8E /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		F9739F192B2497E700FA1F8E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		F9739F2B2B25EDDD00FA1F8E /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -159,6 +165,16 @@
 			path = Draw;
 			sourceTree = "<group>";
 		};
+		F93F89E22B668CA900978E5D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F93F89E32B668CB800978E5D /* AnimationPrac.swift */,
+				F93F89E52B66963E00978E5D /* AnimationBinding.swift */,
+				F93F89E72B66995B00978E5D /* ConvertAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		F9A83AB72B1B2290003AE374 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +194,7 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F93F89E22B668CA900978E5D /* Animation */,
 				F907AB8D2B5F4F70005817F8 /* NavigationSpitView */,
 				F9F04A3D2B5A058400A0F923 /* List */,
 				F9F04A3A2B58AB9000A0F923 /* LifeCycle */,
@@ -341,6 +358,7 @@
 				F98B1BC52B5221D700C71281 /* ViewBuilderPrac.swift in Sources */,
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
 				F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */,
+				F93F89E62B66963E00978E5D /* AnimationBinding.swift in Sources */,
 				F907AB942B5F5648005817F8 /* NavSplitDemo.swift in Sources */,
 				F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */,
 				F93F89DE2B65482600978E5D /* DrawPrac.swift in Sources */,
@@ -354,9 +372,11 @@
 				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
 				F907ABA02B60AB15005817F8 /* CarCellView.swift in Sources */,
+				F93F89E82B66995B00978E5D /* ConvertAnimation.swift in Sources */,
 				F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */,
 				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
 				F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */,
+				F93F89E42B668CB800978E5D /* AnimationPrac.swift in Sources */,
 				F9F04A302B560EB800A0F923 /* ConcurrencyPrac.swift in Sources */,
 				F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */,
 				F98B1BC72B522BF600C71281 /* AnyLayoutPrac.swift in Sources */,
