@@ -48,6 +48,7 @@
 		F9A83ACB2B1B2293003AE374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A83ACA2B1B2293003AE374 /* Preview Assets.xcassets */; };
 		F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD12B1CC19D003AE374 /* Binding.swift */; };
 		F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */; };
+		F9C8AB292B6B2B7500FFEF1C /* ProgressViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8AB282B6B2B7500FFEF1C /* ProgressViewPrac.swift */; };
 		F9E5D6322B272CDD000A4377 /* GeometryReaderProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */; };
 		F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A292B537DFB00A0F923 /* State2.swift */; };
 		F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A2B2B54C7F700A0F923 /* EnvironmentPrac.swift */; };
@@ -102,6 +103,7 @@
 		F9A83AD12B1CC19D003AE374 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		F9A83AD32B1DFF05003AE374 /* WebViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPractice.swift; sourceTree = "<group>"; };
 		F9A83AD52B1E003E003AE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9C8AB282B6B2B7500FFEF1C /* ProgressViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewPrac.swift; sourceTree = "<group>"; };
 		F9E5D6312B272CDD000A4377 /* GeometryReaderProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderProxyView.swift; sourceTree = "<group>"; };
 		F9F04A292B537DFB00A0F923 /* State2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State2.swift; sourceTree = "<group>"; };
 		F9F04A2B2B54C7F700A0F923 /* EnvironmentPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPrac.swift; sourceTree = "<group>"; };
@@ -234,9 +236,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F9C8AB272B6B2B6A00FFEF1C /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8AB282B6B2B7500FFEF1C /* ProgressViewPrac.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
 		F9F04A2D2B560CFC00A0F923 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F9C8AB272B6B2B6A00FFEF1C /* ProgressView */,
 				F93F89DF2B654D8900978E5D /* Draw */,
 				F907ABA32B60B193005817F8 /* GridView */,
 				F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */,
@@ -392,6 +403,7 @@
 				F93F89EB2B669C4900978E5D /* GesturePrac.swift in Sources */,
 				F907ABA02B60AB15005817F8 /* CarCellView.swift in Sources */,
 				F93F89E82B66995B00978E5D /* ConvertAnimation.swift in Sources */,
+				F9C8AB292B6B2B7500FFEF1C /* ProgressViewPrac.swift in Sources */,
 				F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */,
 				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
 				F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */,
