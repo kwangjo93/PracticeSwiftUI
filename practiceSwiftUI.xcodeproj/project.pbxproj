@@ -57,6 +57,8 @@
 		F9F04A392B576F2A00A0F923 /* ActorPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A382B576F2A00A0F923 /* ActorPrac.swift */; };
 		F9F04A3C2B58AB9D00A0F923 /* LifrCyclePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */; };
 		F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */; };
+		F9FE082F2B6B3A3900A67FE9 /* ChartPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */; };
+		F9FE08312B6B402E00A67FE9 /* CharPrac2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +114,8 @@
 		F9F04A382B576F2A00A0F923 /* ActorPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorPrac.swift; sourceTree = "<group>"; };
 		F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifrCyclePrac.swift; sourceTree = "<group>"; };
 		F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
+		F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPrac.swift; sourceTree = "<group>"; };
+		F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharPrac2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +217,9 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F9FE08362B6B446D00A67FE9 /* New Group */,
+				F9FE082D2B6B32F800A67FE9 /* Chart */,
+				F9C8AB272B6B2B6A00FFEF1C /* ProgressView */,
 				F93F89E92B669C3D00978E5D /* Gesture */,
 				F93F89E22B668CA900978E5D /* Animation */,
 				F907AB8D2B5F4F70005817F8 /* NavigationSpitView */,
@@ -247,7 +254,6 @@
 		F9F04A2D2B560CFC00A0F923 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				F9C8AB272B6B2B6A00FFEF1C /* ProgressView */,
 				F93F89DF2B654D8900978E5D /* Draw */,
 				F907ABA32B60B193005817F8 /* GridView */,
 				F9A83AC32B1B2290003AE374 /* practiceSwiftUIApp.swift */,
@@ -301,6 +307,22 @@
 				F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		F9FE082D2B6B32F800A67FE9 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */,
+				F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		F9FE08362B6B446D00A67FE9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +414,8 @@
 				F9F04A372B57657C00A0F923 /* GroupPrac.swift in Sources */,
 				F93F89DE2B65482600978E5D /* DrawPrac.swift in Sources */,
 				F9A83AC62B1B2290003AE374 /* State.swift in Sources */,
+				F9FE082F2B6B3A3900A67FE9 /* ChartPrac.swift in Sources */,
+				F9FE08312B6B402E00A67FE9 /* CharPrac2.swift in Sources */,
 				F93F89DA2B6345D900978E5D /* GridRowPrac.swift in Sources */,
 				F93F89E12B654D9E00978E5D /* GradientPrac.swift in Sources */,
 				F907AB7D2B5DF2B3005817F8 /* 리스트네비게이션.swift in Sources */,
