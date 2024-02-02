@@ -59,6 +59,11 @@
 		F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */; };
 		F9FE082F2B6B3A3900A67FE9 /* ChartPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */; };
 		F9FE08312B6B402E00A67FE9 /* CharPrac2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */; };
+		F9FE083C2B6C876700A67FE9 /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9FE083A2B6C876700A67FE9 /* Products.xcdatamodeld */; };
+		F9FE083E2B6C87CA00A67FE9 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE083D2B6C87CA00A67FE9 /* PersistenceController.swift */; };
+		F9FE08402B6C885100A67FE9 /* CoreDataDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE083F2B6C885100A67FE9 /* CoreDataDemoApp.swift */; };
+		F9FE08422B6C88B400A67FE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE08412B6C88B400A67FE9 /* ContentView.swift */; };
+		F9FE08442B6C8F7E00A67FE9 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE08432B6C8F7E00A67FE9 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +121,11 @@
 		F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
 		F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPrac.swift; sourceTree = "<group>"; };
 		F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharPrac2.swift; sourceTree = "<group>"; };
+		F9FE083B2B6C876700A67FE9 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
+		F9FE083D2B6C87CA00A67FE9 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F9FE083F2B6C885100A67FE9 /* CoreDataDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoApp.swift; sourceTree = "<group>"; };
+		F9FE08412B6C88B400A67FE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9FE08432B6C8F7E00A67FE9 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,7 +227,7 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F9FE08362B6B446D00A67FE9 /* New Group */,
+				F9FE08392B6C762500A67FE9 /* CoreData */,
 				F9FE082D2B6B32F800A67FE9 /* Chart */,
 				F9C8AB272B6B2B6A00FFEF1C /* ProgressView */,
 				F93F89E92B669C3D00978E5D /* Gesture */,
@@ -318,11 +328,16 @@
 			path = Chart;
 			sourceTree = "<group>";
 		};
-		F9FE08362B6B446D00A67FE9 /* New Group */ = {
+		F9FE08392B6C762500A67FE9 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F9FE083A2B6C876700A67FE9 /* Products.xcdatamodeld */,
+				F9FE083D2B6C87CA00A67FE9 /* PersistenceController.swift */,
+				F9FE083F2B6C885100A67FE9 /* CoreDataDemoApp.swift */,
+				F9FE08412B6C88B400A67FE9 /* ContentView.swift */,
+				F9FE08432B6C8F7E00A67FE9 /* ResultView.swift */,
 			);
-			path = "New Group";
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,7 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F991419B2B29F0D100770379 /* ButtonStyleView.swift in Sources */,
+				F9FE08402B6C885100A67FE9 /* CoreDataDemoApp.swift in Sources */,
 				F907AB922B5F5616005817F8 /* IconCategory.swift in Sources */,
+				F9FE08422B6C88B400A67FE9 /* ContentView.swift in Sources */,
 				F907AB8F2B5F5100005817F8 /* NavigationSplitViewPrac.swift in Sources */,
 				F93319E52B307653007D69F6 /* TextFieldViewPrac.swift in Sources */,
 				F907AB9C2B609F3D005817F8 /* OutlineGroupPrac.swift in Sources */,
@@ -423,6 +440,8 @@
 				F93F89DC2B6541BC00978E5D /* ContextMenuPrac.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
+				F9FE08442B6C8F7E00A67FE9 /* ResultView.swift in Sources */,
+				F9FE083E2B6C87CA00A67FE9 /* PersistenceController.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
 				F93F89EB2B669C4900978E5D /* GesturePrac.swift in Sources */,
 				F907ABA02B60AB15005817F8 /* CarCellView.swift in Sources */,
@@ -439,6 +458,7 @@
 				F9739F182B234FD500FA1F8E /* ObservableObject.swift in Sources */,
 				F9A83AD22B1CC19D003AE374 /* Binding.swift in Sources */,
 				F9A83AC42B1B2290003AE374 /* practiceSwiftUIApp.swift in Sources */,
+				F9FE083C2B6C876700A67FE9 /* Products.xcdatamodeld in Sources */,
 				F9739F2C2B25EDDD00FA1F8E /* GeometryReaderView.swift in Sources */,
 				F907ABA22B60AD7E005817F8 /* SettingView.swift in Sources */,
 				F907AB772B5DED61005817F8 /* 리스트속성.swift in Sources */,
@@ -652,6 +672,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9FE083A2B6C876700A67FE9 /* Products.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9FE083B2B6C876700A67FE9 /* Products.xcdatamodel */,
+			);
+			currentVersion = F9FE083B2B6C876700A67FE9 /* Products.xcdatamodel */;
+			path = Products.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9A83AB82B1B2290003AE374 /* Project object */;
 }
