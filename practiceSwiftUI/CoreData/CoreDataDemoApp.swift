@@ -19,3 +19,5 @@ struct CoreDataDemoApp: View {
 #Preview {
     CoreDataDemoApp()
 }
+
+ 

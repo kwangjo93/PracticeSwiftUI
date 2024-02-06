@@ -39,6 +39,10 @@
 		F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AE89C2B2730E800814967 /* TabViewPrac.swift */; };
 		F97D088B2B1F32FF001178B8 /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088A2B1F32FF001178B8 /* TextPractice.swift */; };
 		F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D088C2B206E9A001178B8 /* ImagePractice.swift */; };
+		F98438D52B6F182C0024CEFE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F98438D42B6F182C0024CEFE /* Intents.intentdefinition */; };
+		F98438D82B6F285E0024CEFE /* UIVIewPrac1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98438D72B6F285E0024CEFE /* UIVIewPrac1.swift */; };
+		F98438DB2B7075100024CEFE /* UIPickerControllerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98438DA2B7075100024CEFE /* UIPickerControllerPrac.swift */; };
+		F98438DE2B7201590024CEFE /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98438DD2B7201590024CEFE /* NavigationBarWithButton.swift */; };
 		F98B1BC52B5221D700C71281 /* ViewBuilderPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */; };
 		F98B1BC72B522BF600C71281 /* AnyLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */; };
 		F991419B2B29F0D100770379 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F991419A2B29F0D100770379 /* ButtonStyleView.swift */; };
@@ -57,6 +61,7 @@
 		F9F04A392B576F2A00A0F923 /* ActorPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A382B576F2A00A0F923 /* ActorPrac.swift */; };
 		F9F04A3C2B58AB9D00A0F923 /* LifrCyclePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */; };
 		F9F04A3F2B5A059800A0F923 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */; };
+		F9FB560D2B6E6504004F47DD /* SiriPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB560C2B6E6504004F47DD /* SiriPrac.swift */; };
 		F9FE082F2B6B3A3900A67FE9 /* ChartPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */; };
 		F9FE08312B6B402E00A67FE9 /* CharPrac2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */; };
 		F9FE083C2B6C876700A67FE9 /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9FE083A2B6C876700A67FE9 /* Products.xcdatamodeld */; };
@@ -99,6 +104,10 @@
 		F97AE89C2B2730E800814967 /* TabViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPrac.swift; sourceTree = "<group>"; };
 		F97D088A2B1F32FF001178B8 /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		F97D088C2B206E9A001178B8 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
+		F98438D42B6F182C0024CEFE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		F98438D72B6F285E0024CEFE /* UIVIewPrac1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewPrac1.swift; sourceTree = "<group>"; };
+		F98438DA2B7075100024CEFE /* UIPickerControllerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerControllerPrac.swift; sourceTree = "<group>"; };
+		F98438DD2B7201590024CEFE /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 		F98B1BC42B5221D700C71281 /* ViewBuilderPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderPrac.swift; sourceTree = "<group>"; };
 		F98B1BC62B522BF600C71281 /* AnyLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutPrac.swift; sourceTree = "<group>"; };
 		F991419A2B29F0D100770379 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
@@ -119,6 +128,8 @@
 		F9F04A382B576F2A00A0F923 /* ActorPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorPrac.swift; sourceTree = "<group>"; };
 		F9F04A3B2B58AB9D00A0F923 /* LifrCyclePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifrCyclePrac.swift; sourceTree = "<group>"; };
 		F9F04A3E2B5A059800A0F923 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
+		F9FB560C2B6E6504004F47DD /* SiriPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriPrac.swift; sourceTree = "<group>"; };
+		F9FB560E2B6E650D004F47DD /* practiceSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = practiceSwiftUI.entitlements; sourceTree = "<group>"; };
 		F9FE082E2B6B3A3900A67FE9 /* ChartPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPrac.swift; sourceTree = "<group>"; };
 		F9FE08302B6B402E00A67FE9 /* CharPrac2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharPrac2.swift; sourceTree = "<group>"; };
 		F9FE083B2B6C876700A67FE9 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
@@ -208,6 +219,30 @@
 			path = Gesture;
 			sourceTree = "<group>";
 		};
+		F98438D62B6F28520024CEFE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F98438D72B6F285E0024CEFE /* UIVIewPrac1.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F98438D92B7074FD0024CEFE /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F98438DA2B7075100024CEFE /* UIPickerControllerPrac.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		F98438DC2B7201510024CEFE /* CustomNavi */ = {
+			isa = PBXGroup;
+			children = (
+				F98438DD2B7201590024CEFE /* NavigationBarWithButton.swift */,
+			);
+			path = CustomNavi;
+			sourceTree = "<group>";
+		};
 		F9A83AB72B1B2290003AE374 = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +262,11 @@
 		F9A83AC22B1B2290003AE374 /* practiceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F98438DC2B7201510024CEFE /* CustomNavi */,
+				F98438D92B7074FD0024CEFE /* UIViewController */,
+				F98438D62B6F28520024CEFE /* UIView */,
+				F9FB560E2B6E650D004F47DD /* practiceSwiftUI.entitlements */,
+				F9FB560B2B6E64F6004F47DD /* Siri */,
 				F9FE08392B6C762500A67FE9 /* CoreData */,
 				F9FE082D2B6B32F800A67FE9 /* Chart */,
 				F9C8AB272B6B2B6A00FFEF1C /* ProgressView */,
@@ -317,6 +357,15 @@
 				F907AB7C2B5DF2B3005817F8 /* 리스트네비게이션.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		F9FB560B2B6E64F6004F47DD /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				F9FB560C2B6E6504004F47DD /* SiriPrac.swift */,
+				F98438D42B6F182C0024CEFE /* Intents.intentdefinition */,
+			);
+			path = Siri;
 			sourceTree = "<group>";
 		};
 		F9FE082D2B6B32F800A67FE9 /* Chart */ = {
@@ -425,6 +474,7 @@
 				F907AB9E2B609F54005817F8 /* CarInfo.swift in Sources */,
 				F98B1BC52B5221D700C71281 /* ViewBuilderPrac.swift in Sources */,
 				F9A83AD42B1DFF05003AE374 /* WebViewPractice.swift in Sources */,
+				F98438D52B6F182C0024CEFE /* Intents.intentdefinition in Sources */,
 				F907AB7B2B5DF04B005817F8 /* forEachList.swift in Sources */,
 				F93F89E62B66963E00978E5D /* AnimationBinding.swift in Sources */,
 				F907AB942B5F5648005817F8 /* NavSplitDemo.swift in Sources */,
@@ -440,12 +490,14 @@
 				F93F89DC2B6541BC00978E5D /* ContextMenuPrac.swift in Sources */,
 				F9739F1A2B2497E700FA1F8E /* NavigationView.swift in Sources */,
 				F9F04A2A2B537DFB00A0F923 /* State2.swift in Sources */,
+				F9FB560D2B6E6504004F47DD /* SiriPrac.swift in Sources */,
 				F9FE08442B6C8F7E00A67FE9 /* ResultView.swift in Sources */,
 				F9FE083E2B6C87CA00A67FE9 /* PersistenceController.swift in Sources */,
 				F97D088D2B206E9A001178B8 /* ImagePractice.swift in Sources */,
 				F93F89EB2B669C4900978E5D /* GesturePrac.swift in Sources */,
 				F907ABA02B60AB15005817F8 /* CarCellView.swift in Sources */,
 				F93F89E82B66995B00978E5D /* ConvertAnimation.swift in Sources */,
+				F98438D82B6F285E0024CEFE /* UIVIewPrac1.swift in Sources */,
 				F9C8AB292B6B2B7500FFEF1C /* ProgressViewPrac.swift in Sources */,
 				F9F04A2C2B54C7F700A0F923 /* EnvironmentPrac.swift in Sources */,
 				F97AE89D2B2730E800814967 /* TabViewPrac.swift in Sources */,
@@ -465,6 +517,8 @@
 				F9F04A392B576F2A00A0F923 /* ActorPrac.swift in Sources */,
 				F9F04A3C2B58AB9D00A0F923 /* LifrCyclePrac.swift in Sources */,
 				F93F89ED2B66A2A200978E5D /* UpdateingAction.swift in Sources */,
+				F98438DB2B7075100024CEFE /* UIPickerControllerPrac.swift in Sources */,
+				F98438DE2B7201590024CEFE /* NavigationBarWithButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +649,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = practiceSwiftUI/practiceSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"practiceSwiftUI/Preview Content\"";
@@ -602,6 +657,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = practiceSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSSiriUsageDescription = "Siri support is used to send and review messages.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -625,6 +681,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = practiceSwiftUI/practiceSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"practiceSwiftUI/Preview Content\"";
@@ -632,6 +689,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = practiceSwiftUI/Info.plist;
+				INFOPLIST_KEY_NSSiriUsageDescription = "Siri support is used to send and review messages.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
